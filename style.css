@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 36px;
+}
+
+div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#estados {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 10px;
+}

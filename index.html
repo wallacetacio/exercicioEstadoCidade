@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="select">
+        <div>
+        <label for="estados">Estados:</label>
+        <select name="estados" id="estados">
+            <option value="00">--Selecione--</option>
+            <option value="01" id="parana">Paraná</option>
+            <option value="02" id="santa">Santa Catarina</option>
+            <option value="03" id="rio">Rio Grande do Sul</option>
+        </select>
+
+        <label for="cidades">Cidades:</label>
+        <select name="cidades" id="cidades" disabled></select>
+        <div id="mes"></div>
+    </div>
+    </form>
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
